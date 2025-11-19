@@ -1,0 +1,21 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1400' height='700'>
+  <rect width='1400' height='700' fill='#F2F4FF'/>
+  <rect x='80' y='60' width='1240' height='580' rx='30' fill='#FFFFFF' stroke='#E0E2F5' stroke-width='3'/>
+  <text x='120' y='130' font-family='Segoe UI' font-size='44' fill='#383B5B'>Project Tree Preview</text>
+  <text x='120' y='180' font-family='Segoe UI' font-size='26' fill='#6B6D8F'>Clean typography, responsive layout, infinite depth.</text>
+  <g font-family='Consolas' font-size='28' fill='#43455F'>
+    <text x='150' y='250'>├── GenomeAI-master</text>
+    <text x='200' y='290'>├── api</text>
+    <text x='250' y='330'>├── app</text>
+    <text x='300' y='370'>├── datasets.py</text>
+    <text x='300' y='410'>├── models.py</text>
+    <text x='200' y='450'>├── runner</text>
+    <text x='250' y='490'>└── pipelines</text>
+  </g>
+  <rect x='920' y='230' width='300' height='60' rx='12' fill='#EAF0FF'/>
+  <text x='940' y='270' font-family='Segoe UI' font-size='24' fill='#4C3FF0'>Auto-sorted directories</text>
+  <rect x='920' y='320' width='360' height='60' rx='12' fill='#EAF0FF'/>
+  <text x='940' y='360' font-family='Segoe UI' font-size='24' fill='#4C3FF0'>Emoji icons for quick navigation</text>
+  <rect x='920' y='410' width='320' height='60' rx='12' fill='#EAF0FF'/>
+  <text x='940' y='450' font-family='Segoe UI' font-size='24' fill='#4C3FF0'>Perfect for documentation</text>
+</svg>
