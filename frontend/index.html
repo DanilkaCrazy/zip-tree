@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZIP Project Tree Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌳 ZIP Project Tree Visualizer</h1>
+            <p class="subtitle">Upload a ZIP file to visualize your project structure</p>
+        </header>
+
+        <div class="upload-section">
+            <div class="upload-box" id="uploadBox">
+                <div class="upload-icon">📦</div>
+                <h2>Upload ZIP File</h2>
+                <p class="instructions">
+                    <strong>Instructions:</strong><br>
+                    1. Click the button below or drag and drop your ZIP file<br>
+                    2. Wait for the project tree to be generated<br>
+                    3. View the visual tree structure<br>
+                    4. Download the tree as JPG, PNG, or PDF image<br>
+                </p>
+                <input type="file" id="fileInput" accept=".zip" hidden>
+                <button class="upload-btn" onclick="document.getElementById('fileInput').click()">
+                    Choose ZIP File
+                </button>
+                <p class="file-name" id="fileName"></p>
+            </div>
+        </div>
+
+        <div class="tree-section" id="treeSection" style="display: none;">
+            <div class="tree-header">
+                <h2>Project Tree Structure</h2>
+                <div class="export-buttons">
+                    <button class="export-btn" id="exportJpg">📥 Download as JPG</button>
+                    <button class="export-btn" id="exportPng">📥 Download as PNG</button>
+                    <button class="export-btn" id="exportPdf">📥 Download as PDF</button>
+                </div>
+            </div>
+            <div class="tree-container" id="treeContainer">
+                <!-- Tree will be rendered here -->
+            </div>
+        </div>
+
+        <div class="loading" id="loading" style="display: none;">
+            <div class="spinner"></div>
+            <p>Processing ZIP file...</p>
+        </div>
+
+        <div class="error" id="error" style="display: none;"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
