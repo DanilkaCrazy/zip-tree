@@ -16,7 +16,7 @@ A cross-platform web tool that accepts any ZIP archive, renders its directory st
 
 | Upload Flow | Tree Visualization | Export Controls |
 | --- | --- | --- |
-| ![Upload UI](docs/images/upload-ui.svg) | ![Tree View](docs/images/tree-view.svg) | ![Export Buttons](docs/images/export-buttons.svg) |
+| ![Upload UI](docs/images/upload-ui.png) | ![Tree View](docs/images/tree-view.svg) | ![Export Buttons](docs/images/export-buttons.svg) |
 
 ### Key Features
 - Drag & drop ZIP uploads with instant feedback.
@@ -69,7 +69,7 @@ zip-tree/
 
 | Форма загрузки | Дерево каталога | Кнопки экспорта |
 | --- | --- | --- |
-| ![Форма загрузки](docs/images/upload-ui.svg) | ![Дерево](docs/images/tree-view.svg) | ![Экспорт](docs/images/export-buttons.svg) |
+| ![Форма загрузки](docs/images/upload-ui.png) | ![Дерево](docs/images/tree-view.svg) | ![Экспорт](docs/images/export-buttons.svg) |
 
 ### Основные возможности
 - Перетаскивание ZIP-файлов с мгновенной проверкой.
@@ -111,3 +111,4 @@ zip-tree/
 ---
 
 Happy tree exploring! / Приятного изучения деревьев проектов!
+
